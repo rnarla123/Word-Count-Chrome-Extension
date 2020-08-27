@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Character and Word count",
+    "version": "0.1",
+    "description": "Counts the number of characters and words in the selected area",
+    "background": {
+        "persistent": true,
+        "scripts": ["js/background.js"]
+    },
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ]
+}
